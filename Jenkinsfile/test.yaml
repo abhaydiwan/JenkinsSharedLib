@@ -1,0 +1,3 @@
+global:
+  appName: abc
+  jenkinsAgent: master   
