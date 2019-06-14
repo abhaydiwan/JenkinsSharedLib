@@ -1,3 +1,6 @@
+global:
+  appCode: abc
+  jenkinsAgent: master
 terraform:
   envModuleDir: abc/terraform/env
   envModule: dev/test
