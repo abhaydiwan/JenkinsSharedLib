@@ -3,4 +3,4 @@ global:
   jenkinsAgent: master
 terraform:
   envModuleDir: abc/terraform/env
-  envModule: dev/test
+  envModule: /dev/test
