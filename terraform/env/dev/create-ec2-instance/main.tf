@@ -1,6 +1,10 @@
 # Provider configuration
 provider "aws" {
   region = "us-east-1"
+  aws_access_key_id="AKIATC2IKZVDMGCSWSHA"
+  aws_secret_access_key="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"
+
+  
 }
 
 #terraform {
