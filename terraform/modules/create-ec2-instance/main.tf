@@ -5,9 +5,7 @@ resource "aws_instance" "hello-instance" {
   ami           =  "${data.aws_ami.amazon_linux.id}"
   instance_type = "t2.micro"
   key_name = "addrediff"
-  instance_count = 2
-
-  tags {
+    tags {
     Name = "testing-instance"
   }
 }
