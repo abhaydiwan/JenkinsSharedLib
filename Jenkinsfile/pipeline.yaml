@@ -4,3 +4,6 @@ global:
 terraform:
   envModuleDir: abc/terraform/env
   envModule: /dev/create-ec2-instance
+gradle:
+ tool: Gradle
+ shellCommand: gradle -v
