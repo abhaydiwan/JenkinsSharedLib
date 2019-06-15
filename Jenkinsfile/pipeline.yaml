@@ -7,3 +7,7 @@ terraform:
 gradle:
  tool: Gradle
  shellCommand: gradle -v
+build:
+ shellCommandList:
+      - hostname
+      = 'ls -al'
