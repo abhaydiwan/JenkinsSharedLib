@@ -10,4 +10,4 @@ gradle:
 build:
  shellCommandList:
       - hostname
-      = 'ls -al'
+      - 'ls -al'
