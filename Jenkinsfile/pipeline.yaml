@@ -4,11 +4,13 @@ global:
 items:
 - jobParameter:
     name: StackName
+    type: string
     description: Stack Name to create
     required: true
     value: "teststack"
 - jobParameter:
     name: Bizbr
+    type: string
     description: bix code
     required: true
     value: "asdasd"   
