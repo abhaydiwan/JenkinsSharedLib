@@ -8,4 +8,7 @@ items:
     description: Stack Name to create
     required: true
     value: "teststack"
- 
+ansible:
+  dir: abc/ansible
+  cmd: ansiblePlaybook -i inventories/sandbox
+  playbook: playbooks/test.yml
