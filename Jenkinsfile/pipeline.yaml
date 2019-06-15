@@ -1,14 +1,14 @@
 global:
   appCode: abc
   jenkinsAgent: master
-terraform:
-  envModuleDir: abc/terraform/env
-  envModule: /dev/create-ec2-instance
-gradle:
- tool: Gradle
- shellCommand: gradle -v
-shellCmd:
- stageName: TestShell
- commandList:
-      - hostname
-      - 'ls -al'
+items:
+- jobParameter:
+    name: StackName
+    description: Stack Name to create
+    required: true
+    value: "teststack"
+- jobParameter:
+    name: Bizbr
+    description: bix code
+    required: true
+    value: "124"   
