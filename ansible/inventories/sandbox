@@ -1,0 +1,5 @@
+[qualys_scan]
+localhost ansible_connection=local
+
+[sandbox:children]
+qualys_scan
