@@ -9,7 +9,7 @@ items:
     required: true
     value: "teststack"
 terraform:
-  envModuleDir: abc/terraform/env/dev/create-ec2-instance
+  envModuleDir: abc/terraform/env
   envModule: /dev/create-ec2-instance
   
 #ansible:
