@@ -1,2 +1,2 @@
 @Library('PipelineLibrary') _
-pipelineyaml()
+pipelineCfg()
