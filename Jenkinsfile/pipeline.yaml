@@ -1,2 +1,9 @@
 @Library('PipelineLibrary') _
 
+global:
+  appCode: abc
+  jenkinsAgent: Jen-Slave
+terraform:
+  envModuleDir: abc/terraform/env
+  envModule: /dev/create-ec2-instance
+  
