@@ -1,2 +1,3 @@
 @Library('PipelineLibrary') _
-pipelineyaml("abhaydiwan","JenkinsSharedLib")
+pipelineyaml(['project': 'abhaydiwan','repo':'JenkinsSharedLib'])
+
