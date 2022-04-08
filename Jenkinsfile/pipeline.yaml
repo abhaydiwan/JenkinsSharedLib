@@ -1,7 +1,7 @@
 global:
   appCode: abc
   jenkinsAgent: master
-items:
+
 terraform:
   envModuleDir: abc/terraform/env
   envModule: /dev/create-ec2-instance
