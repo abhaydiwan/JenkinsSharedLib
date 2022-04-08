@@ -1,3 +1,5 @@
+@Library('PipelineLibrary') _
+
 global:
   appCode: abc
   jenkinsAgent: master
