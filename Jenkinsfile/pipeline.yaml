@@ -2,7 +2,7 @@
 
 global:
   appCode: abc
-  jenkinsAgent: master
+  jenkinsAgent: Jen-Slave
 items:
 - jobParameter:
     name: StackName
