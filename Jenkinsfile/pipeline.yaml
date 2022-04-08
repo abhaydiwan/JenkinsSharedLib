@@ -3,13 +3,13 @@
 global:
   appCode: abc
   jenkinsAgent: Jen-Slave
-items:
-- jobParameter:
-    name: StackName
-    type: string
-    description: Stack Name to create
-    required: true
-    value: "teststack"
+#items:
+#- jobParameter:
+#    name: StackName
+#    type: string
+#    description: Stack Name to create
+#    required: true
+#    value: "teststack"
 terraform:
   envModuleDir: abc/terraform/env
   envModule: /dev/create-ec2-instance
