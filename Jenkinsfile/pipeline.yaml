@@ -7,7 +7,3 @@ terraform:
   envModuleDir: abc/terraform/env
   envModule: /dev/create-ec2-instance
   
-#ansible:
-#  dir: abc/ansible
-#  cmd: ansible-playbook -i inventories/sandbox
-#  playbook: playbooks/test.yml
